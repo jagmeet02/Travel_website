@@ -17,3 +17,4 @@ jobs:
 
             - name: "Upload files on s3"
               run: aws s3 sync . s3://jagmeet30092026 --delete
+            
